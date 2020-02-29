@@ -1,0 +1,28 @@
+Task0:
+Method:
+Since the index of a list start from 0, thats the index from where we get the first value.
+Python has a way to get the last element in a list by putting '-1' as index number.
+Run time: O(1)
+
+Task1:
+Method:
+We get all the values in a set. A set is like a list but only keeping unqie values.
+Run time: O(n) since we go through the list once
+
+Task2:
+Method:
+Here we use a dictionary to store the telephone numbers and the total time spent on each (both, receiving and calling numbers)
+Once the dictionary is made, we loop through it and find the maximum time and the phone number corresponding to it.
+Run time: O(n) since we go through the list once. Worst case for looping through the dictionary is going to be O(n) again.
+
+Task3: 
+Method:
+Since we need unique area codes, we store the values of area codes called by fixed numbers in banglore in a set.
+Also we need to keep a count of calls made from a banglore fixed line to other fixed lines and banglore fixed line to banglore fixed line.
+Run time: O(nlogn) since we sort the set once and worst case scenario is original list has all unique values.
+
+Task4:
+Method:
+We add all phone numbers that make calls into a set and remove the phone numbers which receive phone calls and send or receive texts
+There is a sort function involved and python sort does it in O(nlogn)
+Run time: O(nlogn) since we have to sort the set and worst case scenario is that there are all unique values in the original list.
